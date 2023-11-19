@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(https://wildnet.org/wp-content/uploads/2022/07/Great-Green-7-1024x683.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navbar Start */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    min-height: 8vh;
+    background-color: green;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 25px;
+}
+
+.logo a{
+    margin: 10px;
+    color: red;
+}
+
+.logo img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.navbar-top a{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    overflow: hidden;
+}
+
+.navbar-top a:hover{
+    border-bottom: 2px solid red;
+}
+
+#menu {
+    color: black;
+    padding: 10px;
+    font-size: 35px;
+    z-index: 999999;
+    cursor: pointer;
+    display: none;
+}
+
+#online-alarm-kur-iframe {
+    overflow: hidden;
+    position: fixed;
+}
+
+
+/* Konten 1 */
+.konten-one {
+    width: 70%;
+    height: 70vh;
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 1px solid; */
+}
+
+.tittle-konten h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.tittle-konten a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+/* konten one END */
+
+/* Konten two */
+.konten-two {
+    background-color: green;
+    height: 30vh;
+}
+
+.back-konten {
+    width: 70%;
+    margin: 20px auto;
+    /* border: 2px solid; */
+
+}
+
+.product-card{
+    display: flex;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 50%;
+    margin: 20px 5%;
+}
+
+.img-card:hover{
+    transform: scale(.9);
+    transition: all 0.50s ease-in-out;
+}
+
+/* Konten Two END */
+
+/* konten tree Start */
+.konten-tree {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.tips-bird{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/027/147/314/original/red-and-yellow-macaw-bird-true-parrot-macaw-parrot-animals-vertebrate-animal-generative-ai-free-png.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: top;
+   
+}
+
+.tittle-tips {
+    height: 40vh;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-tips p{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.trik-bird {
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+}
+
+.list-trick {
+    display: flex;
+}
+
+.trick-bird {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.trick-bird a{
+    /* margin */
+    padding: 8px;
+    background-color: aqua;
+    border-radius: 20%;
+}
+/* konten tree END */
+
+/* konten four START */
+.mision {
+    background-image: url(https://livedemo00.template-help.com/muse_57607/images/home_bg_01.jpg);
+    height: 120vh;
+}
+
+.konten4 {
+    width: 100%;
+    margin: auto;
+    padding: 10%;
+    display: flex;
+    /* border: 1px solid; */
+}
+
+.img-mision {
+    width: 80%;
+}
+
+.informasi h2{
+    font-size: 35px;
+}
+.informasi p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.informasi-plus {
+    list-style: none;
+    padding: 20px;
+}
+
+.btn-kol {
+    padding: 20px;
+    border-radius: 20%;
+    background-color: antiquewhite;
+}
+
+
+/* konten four END */
+
+/* Foooter LOVE CAN"T REPAIR EVERYTHING */
+.end-showcase {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcic0qR6OfkP9_S1J3fwx5JZXRVpDza8EfQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.medsos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.memohon {
+    padding-top: 50px;
+    width: 80%;
+    /* border: 1px solid red; */
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.medsos-konten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.facebook a{
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin: 10px;
+    color: blue;
+}
+
+.ig a{
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin: 10px;
+    color: brown;
+}
+
+.twitter a{
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin: 10px;
+    color: blue;
+}
+
+.youtube a{
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin: 10px;
+    color: red;
+}
+
+.medsos a:hover{
+    transform: scale(80%);
+    transition: all 0.5s ease-in-out;
+}
+
+.credit {
+    width: 100%;
+    font-size: 25px;
+}
+/* Fooooter END*/
+/* SEEE YOUUUU */
+
+/* Responsive And JS */
+@media screen and (max-width: 1240px) {
+    body {
+        width: 100%;
+    }
+
+    #menu {
+        display: inline-block;
+    }
+
+    .navbar {
+        padding: 10px 2%;
+    }
+
+    .navbar-top {
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        background-color: greenyellow;
+        width: 30rem;
+        height: 100vh;
+    }
+
+    .navbar .navbar-top.active {
+        right: 0;
+        transition: 1s;
+    }
+
+    .navbar .navbar-top a{
+        font-size: large;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1.4rem;
+    }
+
+    .navbar .navbar-top a:hover{
+        color: red;
+        font-size: 1.6rem;
+    }
+
+    .tittle-tips {
+        height: 30vh;
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .trik-bird {
+        height: 30vh;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .medsos {
+        width: 100%;
+    }
+    .mision {
+    }
+    .mision img{
+        display: none;
+        flex: none;
+    }
+}
+
+/* handphone */
+@media screen and (max-width: 750px) {
+    body{
+        width: 120%;
+    }
+
+    .back-konten{
+        width: 90%;
+        border: 1px solid;
+    }
+
+    .card img{
+        border: 1px solid;
+    }
+
+    .konten-tree {
+        height: 140vh;
+    }
+    
+    .tittle-tips {
+        font-size: 30px;
+        height: 20vh;
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: rgb(37, 174, 3);
+        border: 1px solid;
+    }
+
+    .list-trick{
+        flex-direction: column;
+    }
+
+    .trik-bird {
+        min-height: 10vh;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .trick-bird {
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    .memohon {
+        padding-top: 20%;
+        font-size: 20px;
+    }
+
+    .medsos-konten {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
